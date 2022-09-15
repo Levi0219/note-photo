@@ -1,0 +1,5 @@
+# 开始运行，设置名称为mysql，外部端口号为3306，登录密码为123456，-d表示后台运行
+
+docker run --name mysql03 -p 3312:3306 -e MYSQL_ROOT_PASSWORD=123456 -d mysql
+
+docker run --name mysql04 -p 3313:3306 -e MYSQL_ROOT_PASSWORD=123456 -d mysql
